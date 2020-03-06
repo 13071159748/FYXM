@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  MoQingInternational
+
+  Created by moqing on 2018/6/29.
+  Copyright © 2018年 _CHK_ . All rights reserved.
+*/
+
+CFBundleDisplayName = "傳奇書城";
+
+//// 權限
+
+//NSMicrophoneUsageDescription = "請求訪問您的麥克風";
+
+NSCameraUsageDescription = "是否同意傳奇書城訪問您的相機？來完成頭像設置。";
+NSPhotoLibraryAddUsageDescription = "是否同意傳奇書城訪問相冊資料？來完成頭像設置。";
+NSPhotoLibraryUsageDescription = "是否同意傳奇書城訪問媒體資料庫？選擇圖像，來完成頭像設置。";
+NSAppleMusicUsageDescription = "是否同意傳奇書城訪問媒體資料庫？來完成頭像設置。";

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fa6-17-m2C">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rank Detail View Controller-->
+        <scene sceneID="mes-fx-zZl">
+            <objects>
+                <viewController id="Fa6-17-m2C" customClass="MQIRankDetailViewController" customModule="CQSC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kYk-mA-7cf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amd-FS-UOD">
+                                <rect key="frame" x="0.0" y="64" width="375" height="403"/>
+                                <color key="backgroundColor" red="0.88225489854812622" green="0.89002233743667603" blue="0.90194779634475708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iyx-od-Rpm" firstAttribute="trailing" secondItem="amd-FS-UOD" secondAttribute="trailing" id="FeY-P2-0rX"/>
+                            <constraint firstItem="iyx-od-Rpm" firstAttribute="bottom" secondItem="amd-FS-UOD" secondAttribute="bottom" constant="200" id="aDR-DE-I6Z"/>
+                            <constraint firstItem="amd-FS-UOD" firstAttribute="top" secondItem="iyx-od-Rpm" secondAttribute="top" id="piu-q1-EYD"/>
+                            <constraint firstItem="amd-FS-UOD" firstAttribute="leading" secondItem="iyx-od-Rpm" secondAttribute="leading" id="vCm-ae-ZGE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iyx-od-Rpm"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="nameBacView" destination="amd-FS-UOD" id="pun-7u-O74"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x31-1o-qbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111.2" y="46.326836581709152"/>
+        </scene>
+    </scenes>
+</document>

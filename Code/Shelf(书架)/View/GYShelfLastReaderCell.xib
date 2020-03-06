@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="yyJ-kc-BnN" customClass="GYShelfLastReaderCell" customModule="Reader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="202"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="202"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3n-hg-yq8" userLabel="bookCover" customClass="GYBookOriginalHeaderBookView" customModule="Reader" customModuleProvider="target">
+                        <rect key="frame" x="40" y="80" width="88" height="102"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="b3n-hg-yq8" secondAttribute="height" multiplier="75:87" id="vFq-GJ-7wd"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93O-zc-V6f">
+                        <rect key="frame" x="143" y="92" width="204" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ana-NZ-XQC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vi-0O-nC8">
+                        <rect key="frame" x="143" y="116" width="204" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcM-3U-XJK">
+                        <rect key="frame" x="245" y="148" width="80" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="qcM-3U-XJK" secondAttribute="height" multiplier="2.5:1" id="gmn-rI-iB9"/>
+                            <constraint firstAttribute="width" constant="80" id="r43-6X-LpX"/>
+                        </constraints>
+                        <state key="normal" title="继续阅读"/>
+                        <connections>
+                            <action selector="readerAction:" destination="yyJ-kc-BnN" eventType="touchUpInside" id="Fle-kT-tIW"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="1vi-0O-nC8" firstAttribute="top" secondItem="93O-zc-V6f" secondAttribute="bottom" constant="3" id="6mZ-P3-Eu0"/>
+                <constraint firstItem="qcM-3U-XJK" firstAttribute="bottom" secondItem="b3n-hg-yq8" secondAttribute="bottom" constant="-2" id="8CT-Z7-PGr"/>
+                <constraint firstAttribute="trailing" secondItem="qcM-3U-XJK" secondAttribute="trailing" constant="32" id="99x-qA-3zq"/>
+                <constraint firstAttribute="bottom" secondItem="b3n-hg-yq8" secondAttribute="bottom" constant="20" id="9QK-le-7ni"/>
+                <constraint firstItem="1vi-0O-nC8" firstAttribute="centerX" secondItem="93O-zc-V6f" secondAttribute="centerX" id="FPV-VH-8dq"/>
+                <constraint firstItem="qcM-3U-XJK" firstAttribute="top" secondItem="1vi-0O-nC8" secondAttribute="bottom" constant="3" id="FqN-JX-Xo7"/>
+                <constraint firstItem="b3n-hg-yq8" firstAttribute="leading" secondItem="yyJ-kc-BnN" secondAttribute="leading" constant="40" id="KP7-07-OJv"/>
+                <constraint firstItem="b3n-hg-yq8" firstAttribute="top" secondItem="yyJ-kc-BnN" secondAttribute="top" constant="80" id="LF6-28-wJh"/>
+                <constraint firstItem="93O-zc-V6f" firstAttribute="leading" secondItem="b3n-hg-yq8" secondAttribute="trailing" constant="15" id="aoL-SG-Lse"/>
+                <constraint firstItem="1vi-0O-nC8" firstAttribute="leading" secondItem="93O-zc-V6f" secondAttribute="leading" id="cra-L5-WPb"/>
+                <constraint firstAttribute="trailing" secondItem="93O-zc-V6f" secondAttribute="trailing" constant="10" id="fxP-vi-QPv"/>
+                <constraint firstItem="1vi-0O-nC8" firstAttribute="width" secondItem="93O-zc-V6f" secondAttribute="width" id="opb-Ik-jPS"/>
+                <constraint firstItem="93O-zc-V6f" firstAttribute="top" secondItem="b3n-hg-yq8" secondAttribute="top" constant="12" id="wIU-kI-r3u"/>
+            </constraints>
+            <size key="customSize" width="357" height="202"/>
+            <connections>
+                <outlet property="bookCover" destination="b3n-hg-yq8" id="kz4-MZ-AGv"/>
+                <outlet property="nameLabel" destination="93O-zc-V6f" id="cSe-DI-62E"/>
+                <outlet property="readerBtn" destination="qcM-3U-XJK" id="7mY-fu-ZCk"/>
+                <outlet property="readerLabel" destination="1vi-0O-nC8" id="CK4-m8-2XG"/>
+            </connections>
+            <point key="canvasLocation" x="28.5" y="196"/>
+        </collectionViewCell>
+    </objects>
+</document>

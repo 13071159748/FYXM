@@ -1,0 +1,636 @@
+/*
+ Localizable.strings
+ MoQingInternational
+ 
+ Created by moqing on 2018/6/29.
+ Copyright © 2018年 _CHK_ . All rights reserved.
+ */
+
+
+BookShelf = "書架";
+User = "個人中心";
+Goods = "精品";
+BookStore = "書城";
+mine = "我的";
+app_Name = "傳奇書城";
+Loading = "加載中";
+
+MoB = "書幣";
+MoD = "書券";
+MoBD = "書幣/券";
+
+
+
+//书架
+//
+UpdateTo = "更新至：";
+Product = "簡介: ";
+AlreadyReaded = "已閱讀：";
+PleaseSel = "請勾選您要添加的書籍";
+ReadHis = "閱讀紀錄：";
+BookStoreSelectBook = "書城選書";
+NoReadHis = "無閱讀紀錄";
+Clear = "整理";
+Cancel = "取消";
+Delete = "刪除";
+DeleteSuccess = "刪除成功";
+Deleting = "書籍刪除中！";
+Warn = "提示";
+WarnSel = "是否要刪除所選的";
+BenWar = "本圖書？";
+CheckNeedDeleteBook = "請勾選要刪除的書籍";
+ReadHistory = "閱讀記錄";
+MineShelf = "我的書架";
+NoBooks = "書架裡竟然一本書都木有喔~";
+NoAboutData = "暫時沒有相關數據";
+UnRead = "未讀";
+AlreadyRead = "已讀";
+Night = "夜間";
+Daily = "日間";
+Directory = "目錄";
+Set = "設置";
+LastChapter = "上一章";
+NextChapter = "下一章";
+DownLoadChapter = "下載已購章節";
+AlreadyDownLoad = "已下載";
+UnDownLoad = "未下載";
+No = "第";
+Page = "頁";
+Chapter = "章";
+UpDateBookingInfo = "訂閱信息更新中";
+AllSelect = "全選";
+AlreadyUpDateBookingInfo = "訂閱信息已更新";
+ShareThisBook = "分享本書";
+Share = "分享";
+AddShelf = "加入书架";
+Exceptional = "打賞作者";
+BookInfo = "書籍詳情";
+ShareSuccess = "分享成功";
+ShareFaild = "分享失敗";
+AlreadyAdd = "已添加";
+GoOnRead = "繼續閱讀";
+BeginRead = "開始閱讀";
+Exception = "打賞";
+Exceptioning = "打賞中";
+ExceptionSuccess = "打賞成功";
+MakeSureException = "確定要打賞";
+Comments = "評論";
+NewComments = "最新評論";
+GuessYouLike = "猜你喜歡";
+WrongBookInfo = "書籍信息錯誤";
+ComeFirstComments = "快來發表第一個評論吧~";
+CheckAllComments = "查看全部評論>>";
+CheckAll = "查看更多>";
+OtherBook = "作者其他書";
+WrongBookInfoReload = "書籍信息有誤，請重新加載";
+HardPress = "努力點贊中";
+PressSuccess = "點贊成功";
+TenPress = "好激動，收到十枚贊";
+TomorrowCome = "沒有那麼多啦，明天記得來";
+CheckDirectory = "查看目錄：共";
+TimeFree = "限時免費：";
+Day = "天";
+GiveLike = "點贊";
+GiveLikePopel = "人贊";
+Word = "字";
+AlreadyAddBook = "您已經添加過此書了";
+ShelfAdding = "正在加入书架";
+ShelfAddSuccess = "加入书架成功";
+AlreadyAddShelf = "已添加";
+NoMoreBook = "沒有更多了";
+Select0Book = "已選擇0本書";
+AlreadySel = "已選擇";
+NoBook = "本書";
+//精品
+//kLocalized("Tag")
+Rank = "排行";
+NewError = "網絡錯誤，請檢查網絡";
+FollowRead = "点击";
+CheckDetail = "查看詳情";
+Title = "標題";
+Tag = "標簽";
+
+
+
+//書城
+Leaderboard = "排行榜";
+Essence = "精華";
+TenRhousand = "萬";
+thousand = "千";
+ThousandWords = "千字";
+MQIloading = "連載中";
+finished = "已完結";
+LikeIt = "已完結";
+FreeForALimitedTime = "限時免費結束";
+Collapse = "收起";
+ExpandAll = "展開全部";
+TheAuthor = "作者";
+reading = "在讀";
+TheAuthorAlsoWrote = "作者還寫過";
+WriteDownYourThoughts = "寫下你的想法~";
+SorryTheNumberOfCommentsInTheContentCannotExceed = "抱歉，評論內容字數不能超過";
+NoIntroduction = "暫無簡介。";
+GiveItAReward = "給%@打賞一下吧";
+ChangeoOne = "換一換";
+PeoplePursuing = "%@人追讀";
+NoHistory = "沒有歷史記錄";
+ClearAllHistory = "清除全部歷史記錄";
+SerialWorks = "連載作品";
+FinishedWork = "完結作品";
+HardWorkInSearch = "努力搜索中";
+Search = "搜索";
+SearchForBooksYouAreInterestedIn = "搜索你感興趣的書籍";
+PleaseEnterTheSearchContent = "請輸入搜索內容";
+PleaseEnterTheCorrectSearchContent = "請輸入正確搜索內容";
+ThereNothingHere = "這裡什麼都沒有";
+serial = "連載";
+through = "穿越";
+TheEnd = "完結";
+MQIloading2 = "加載";
+LoadFailedPleaseCheckTheNetworkConnection = "加載失敗，請檢查網絡連接";
+TheNetworkIsOff = "網絡開小差了";
+TheNetworkIsOffPleaseTryItLater = "網絡開小差了，請稍後嘗試！";
+PleaseEnterTheTitleOrAuthorName = "請輸入書名或作者名";
+ListMode = "列表模式";
+ManagementBookshelf = "管理書架";
+TilePattern = "平鋪模式";
+TheTirstChapt = "第一章";
+update = "更新";
+TheBookInformationSynchronizationIsSuccessful = "書籍信息同步成功";
+DoYouWantToDeleteTheSelectedBo = "是否要刪除所選的 %@ 本圖書？";
+HaveNotAddedTheBookshelfVDoYouAddYourBookshelf = "《 %@ 》還未加入书架，是否加入您的书架？";
+JoinYourBookshelf = "將《 %@ 》加入您的书架吧！";
+WarmPrompt = "溫馨提示";
+
+/// 個人中心
+Recharge = "充值";
+SignIn = "簽到";
+NewUserSigned  = "新用戶簽到雙倍%@獎勵\n恭喜獲得";
+TheBinding = "綁定";
+NotLoggedIn = "点击登錄";
+SwitchAccount = "切換帳號";
+SpecialGifts = "特別贈送";
+SubscribeToComplete = "訂閱全本";
+SubscribedToTheChapter = "訂閱了%@章";
+ATotalOf = "共計：";
+WillBeValidUntil = "有效期至 ";
+MobilePhone = "手機號";
+VerificationCode = "驗證碼";
+SendVerificationCode = "發送驗證碼";
+SecondsLaterToTry = "秒後嘗試";
+PleaseTryAfterSecond = "請%@秒後嘗試";
+PleaseEnterTheCorrectMobilePhoneNumber = "請輸入正確的手機號";
+PleaseEnterYourCellPhoneNumber = "請輸入手機號";
+PleaseEnterTheVerificationCode = "請輸入驗證碼";
+PleaseFillInYourCellPhoneNumber = "請填寫手機號";
+GetIn = "獲取中...";
+SuccessfulPpleaseCheckTheMessage = "獲取成功，請查收短信";
+TheBindingOf = "綁定中...";
+BindingSuccess = "綁定成功";
+TheUserCenter = "用戶中心";
+TopUpWithBeans = "充值贈豆";
+SorryYouHavenLoggedInYet = "抱歉，您還未登錄";
+HelpAndFeedback = "幫助與反饋";
+AccountHasBeenLoggedOut = "帳號已登出";
+coupons = "優惠券";
+PrepaidPhoneRecords = "充值記錄";
+SubscribeToTheRecord = "訂閱記錄";
+ExceptionalRecord = "打賞記錄";
+CardCouponRecord = "我的卡券";
+unUsed = "未使用";
+expired = "已失效";
+FeedbackEenter = "反饋中心";
+//FeedbackEenter = "聯繫客服";
+BusinessContact = "商務聯繫";
+BalanceHasBeenUpdated. = "餘額已更新";
+UserHasQuit = "用戶已退出";
+BindingMobilePhone = "綁定手機";
+ModifyTheNickname = "修改暱稱";
+NicknamesWillBeUsedAsYourIdentityInTheComments = "暱稱將在評論留言中作為你的標識，為保障您的隱私安全，請注意不要使用真名或手機號。";
+SaveTheChange = "保存修改";
+PleaseEnterNicknam = "請輸入暱稱";
+NicknameLengthCannotExceedCharacte = "暱稱長度不能超過16個字符";
+ModifyTheSuccess = "修改成功";
+MyCoupon = "我的優惠券";
+ThereAreNoMoreValidCouponsIsTheInvalidCoupon = "沒有更多有效券了 | 查看無效券 >>";
+ThereAreNoMoreInvalidCoupo = "沒有更多無效券了";
+feedback = "我的反饋";
+ThePersonalData = "用户資料";
+HeadPortrait = "頭像";
+IDAccount = "ID賬號";
+nickname = "暱稱";
+members = "會員";
+DueTo = " 到期";
+TheAverageUser = "普通";
+UnbundledMobilePhone = "未綁定手機";
+TakingPictures = "拍照";
+SelectFromPhotoAlbums = "從相冊選擇";
+AreYouSureYouWantToChangeYourAccount = "你確定要切換帳號嗎？";
+CamerasAreNotSupportedOnCurrentDevices = "當前設備不支持攝像頭";
+OnTheCro = "上傳中...";
+about = "關於";
+version = "版本：";
+TheTermsOfService = "服務條款";
+PrivacyPolicy = "隱私策略";
+BusinessQQ = "商務Line";
+MicroSignal = "微信號";
+CopySuccess = "複製成功";
+AutomaticSubscriptionSettings = "自動訂閱設置";
+ReadThePageTurningEffect = "閱讀翻頁效果";
+ClearImageCache = "清除圖片緩存";
+AreYouSureToDeleteTheImageCache = "確定刪除圖片緩存嗎？";
+ClearSuccess = "清除成功";
+AreYouSureToDeleteTheDownloadBookCache = "確定刪除下載書籍緩存嗎？";
+InAnEffortToClear = "努力清除中...";
+ChooseTourReadingStyle = "選擇閱讀方式";
+TheSimulation = "仿真";
+contracted = "簡約";
+UpAndDown = "上下";
+ThereIsNo = "無";
+AutomaticPurchase = "自動購買";
+ThereIsNoBookSubscriptionAtTheMoment = "暫時沒有訂閱書籍";
+DearYouMustCancelIt = "親，您確定要取消《 %@ 》的自動訂閱嗎？";
+determine = "確定";
+
+
+
+// 登錄
+PleaseEnterYourPassword = "請輸入密碼";
+QuickRegistration = "快速註冊";
+ForgetYourPassword = "忘記密碼?";
+TheLogin = "登錄";
+APasswordShouldBeACombinationOfAlphanumericAndUnderscoreCharacters = "密碼應為字母數字和下劃線等符號的組合";
+InTheLogin = "登錄中...";
+YourMobilePhoneHasNotBeenRegisteredPleaseRegister = "您手機未曾註冊過，請您註冊";
+LoginSuccessful = "登錄成功";
+GetTheVerificationCode = "獲取驗證碼";
+registered = "註冊";
+YouHaveRegisteredThisMobilePhoneNumberPleaseReturnToLogin = "您已註冊過此手機號，請返回登錄";
+PleaseEnterYourPasswordWithNoLessThanBits = "請輸入密碼並且不小於6位";
+PleaseEnterYourPasswordWithNoMoreThanBits = "請輸入密碼並且不大於16位";
+InTheRegister = "註冊中...";
+PasswordChangedSuccessfullyPleaseLogin = "密碼修改成功，請登錄！";
+TheFloodOfPopularNovelsIsTimedForFree = "熱門小說下載神器";
+OtherWaysToLogin = "其他方式登錄";
+ToLogin = "%@ 登錄";
+LoginIndicatingThatYouAgreeWithOurTermsOfServicePrivacyPolicy = "登錄，表明您同意我們的服務條款，隱私策略";
+SignInToShowThatYouAgreeWithUs = "登錄，表明您同意我們的";
+PleaseLoginFirst = "請您先登錄";
+
+///其他
+ThereNoMore = "沒有相關內容了";
+retry = "重試";
+LoadingAataFailedPleaseTryAgain = "加載數據失敗，請重試";
+Loadingin = "加載中...";
+hasNotBeenChargedForTheTimeBeing = "風蕭蕭兮易水寒\n暫時還木有充值記錄";
+AmountPaid = "支付金額: ";
+PaymentMethod = "支付方式: ";
+complete = "完成";
+Chapter_After = "後%@章";
+SelectTheNumberOfChaptersToSubscribeTo = "請選擇訂閱的章節數";
+from = "從";
+ToSubscribeTo = "開始訂閱";
+BulkSubscriptionSection = "批量訂閱章節";
+ConfirmTheSubscription = "確認訂閱";
+theyWillBeDownloadedTogether = "1.批量订阅的章节是VIP章节，如果之间有免费章节和已订阅章节，下载时会一并下载";
+pleaseFeelFreeToSubscribe = "2.免费章节和已订阅章节不会重复订阅，请放心订阅";
+discountRules3 = "3.批量訂閱不可與其他折扣活動疊加使用，當出現兩種或兩種以上的折扣活動時，以頁面實際顯示的價格為準";
+confirm = "確認";
+consumption = "消費";
+SubscribedTo = "已訂閱";
+CompleteTheSubscription = "全本訂閱";
+SubscribedBooks = "已訂閱書籍:";
+MicroLetterToPay = "微信";
+APayment = "支付寶";
+free = "免費";
+list = "榜單";
+classification = "分類";
+detailed = "詳細";
+
+
+/// http
+NetworkStrike = "網絡罷工了！";
+NetworkConnectionTimeout = "親，網絡連接超時";
+TheServerIsOffPleaseTryAgainLater = "親，服務器開小差了，請稍後重試";
+TheVersionIsTooLowPleaseUpdateTheProgram = "版本過低，請升級程序";
+DatabaseError = "數據庫錯誤";
+TheUsernameCannotBeEmpty = "用戶名不能為空";
+ThePasswordCannotBeEmpty = "密碼不能為空";
+PleaseEnterTheCorrectOriginalPassword = "請輸入正確的原密碼";
+UserDoesNotExist = "用戶不存在";
+TheAccountIsAbnormal = "帳號異常，請稍後重試";
+TheAmountOfDeductionIsIncorrect = "扣費金額不正確";
+TheFreeSectionHasBeenDownloaded = "免費章節已下載完成，由於您不是會員，無法下載會員章節";
+ThePhoneNumberHasBeenAuthenticated = "該手機號已進行過驗證";
+InsufficientCheckInPoints = "簽到點數不足";
+TheNetworkIsNotGood = "網絡不佳，請稍後重試";
+TheSubmissionParameterIsIncorrect = "提交參數不正確";
+UnknownErrorPleaseTryAgainLater = "未知錯誤，請稍後重試";
+BooksDonExist = "書籍不存在";
+BooksAreNotVIPBooks = "書籍不是VIP書籍";
+ChaptersDonExist = "章節不存在";
+NotAVIPSection = "不是vip章節";
+CannotBeDownloadedDuringTheFreePeriod = "限免期間，無法下載";
+UnsubscribedChapters = "未訂閱章節";
+SubscriptionTransactionFailed = "訂閱事務失敗，請稍後重試";
+AddingAutomaticSubscriptionsFailed = "添加自動訂閱失敗，請稍後重試";
+TheLackOfSESSION_ID = "缺少SESSION_ID";
+TheSESSIONHasBeenExpired = "SESSION已過期";
+IllegalRewardRequest = "非法的打賞請求";
+IllegalMonthlyTickeRequest = "非法的月票請求";
+MonthlyTicketShortage = "月票數量不足";
+FailToDeductMonthlyTicket = "扣月票失敗";
+NoMonthlyVoting = "禁止投月票";
+TheDeviceWasCheckedInToday = "該設備今天已進行簽到操作";
+WrongAmountOfRecharge = "充值金額錯誤";
+FailedPurchaseSection = "購買章節失敗";
+HisFunctionIsSuspendedDueToForceMajeure = "抱歉，因不可抗力，該功能被暫停使用";
+OperationIsSuccessful = "操作成功";
+NoRepeatSubscription = "不能重複訂閱呦～";
+ChaptersHaveBeenSubscribedSuccessfully = "已成功訂閱章節";
+AutomaticSubscriptionHasBeenSuccessfullySubscribed = "已成功自動訂閱";
+
+AAA = "未知錯誤，重繪章節失敗";
+
+
+
+//kLocalized("CheckI")
+
+NeedLogin = "需要訂閱整本後閱讀";
+NeedLog = "需要登陸後閱讀";
+IsVIP = "此章節為VIP章節，需要訂閱後閱讀";
+SureBook = "確定訂閱";
+AutoBook = "自動訂閱下一章，不再提示";
+MoreBook = "批量訂閱";
+NeedBookRead = "需要訂閱整本後閱讀";
+CheckInt = "連接失敗，請檢查網絡是否正常";
+Refrash = "刷新";
+THKBook = "\n感謝訂閱，支持正版";
+HullBookPrice = "全書價格: ";
+Price = "價格: ";
+AbovePrice = ", 餘額: ";
+BookFrom = "本書由";
+ACEFirst = "中文網獨家首發";
+GetNee = "版權所有·侵權必究";
+NoLogin = "您還未登錄，是否下載所有免費章節";
+DownLoadFree = "下載免費章節";
+WillBook = "您即將訂閱書籍:";
+NoLog = "您還未登錄，請先登錄";
+WriteYouFeel = "寫下你對本章內容的想法~";
+NoShotSix = "評論內容不得少於6個字";
+YouAlreadyDown = "您已經下載過此書所有免費章節了，是否要訂閱新的收費章節？";
+YouAlreadyBuy = "您購買的章節已經全部下載完成，是否繼續訂閱？";
+AlreadyDownLoadCh = "您訂閱的書籍已經全部下載完成";
+YouNeverBook = "您還未訂閱過";
+NeedDownL = "是否要下載免費章節？";
+Down = "下載";
+GetBookInfo = "訂閱章節信息獲取中";
+Booking = "正在訂閱...";
+GetWrongAgain = "出錯了，請重新加載";
+IsFirstPage = "已經是第一章了";
+IsLastPage = "已經是最後一章了";
+AuthHard = "【未完待續】，精彩劇情敬請期待。";
+AuthFinsh = "【全書大結局】，閱讀是最好的禮物。";
+TitleName = "標題-書名";
+HardUpdate = "努力更新中";
+AlreadyAddDown = "已經加入下載隊列了";
+YouBookDownDon = "您所訂閱的章節已經下載完成";
+CheckI = "請檢查您的網絡環境";
+
+
+ConfirmPrepaidPhone = "確認充值";
+SelectTheRechargeAmoun = "選擇充值金額";
+PleaseEnterAValidAmou = "請輸入有效金額";
+NetworkConnectionFailed = "網絡連接失敗，請連接後重試";
+TheTopUp = "充值中...";
+yuan = "元";
+AppleToPay = "蘋果支付";
+NowPay = "現在支付";
+Pay = "支付";
+Won = "獲得: ";
+TopUpAccount = "充值帳戶: ";
+BannedThePurchaseOfFunctionsLocally = "抱歉，您已經於本地禁止內購買功能了，請前往->設置->通用->訪問限制开启->app内购买";
+UnableToObtainProductInformation = "無法獲取商品信息，購買失敗。";
+TheNetworkIsNoConnected = "網絡未連接，請檢查網絡";
+ThePurchaseFailed = "購買失敗，請重新嘗試";
+PurchaseFailed = "購買失敗";
+BuySuccess = "購買成功";
+SuccessfulOrder = "獲取訂單成功";
+TopUpSuccess = "充值成功";
+AnOrderCannotBeSubmittedRepeatedly = "不可重複提交訂單哦";
+WeChatIsNoInstalledOnYourPhone = "抱歉，您手機沒有安裝微信！";
+GetTheOrder = "獲取訂單中";
+successful = "成功";
+TopUpFailure = "充值失敗";
+OrderSuccessful = "訂單獲取成功";
+WeChatPay = "微信充值";
+AlilPay = "支付寶充值";
+
+
+
+othePay = "其他方式";
+payPrompt = "1%@=1%@，消費時優先扣除%@";
+TopupInstructions = "充值說明";
+payPreferential = "1、1書幣=1書券，書幣永久有效，書券有效期30天，消費時系統優先扣除書券 \n2、充值所得書幣和書券為虛擬物品，不支持退款，僅限本站使用\n3、充值遇到問題，請聯系";
+payPreferential2 = "在線客服";
+
+LoginFailed = "登錄失敗";
+InformationAcquisitionFailure = "信息獲取失敗";
+SignInForBenefits = "簽到領福利";
+AlreadySignedIn = "已簽到";
+RecommendedReading = "推薦閱讀";
+ReadTheBeans = "閱讀券";
+pocket = "收入囊中";
+CongratulationsOnYourSuccess = "恭喜您獲得";
+
+
+
+
+BalanceRefresh = "餘額刷新中";
+PayForFailure = "支付失敗";
+PayForSuccess = "支付成功";
+NormalErrorType = "普通錯誤類型";
+TheUserClicksCancelAndReturns = "用戶點擊取消並返回";
+SendFailure = "發送失敗";
+AuthorizationFailure = "授權失敗";
+WeChatIsNotSupported = "微信不支持";
+CheckTheBalanceLater = "正在處理中，請稍後查看餘額";
+RepeaTheRequest = "重複請求，請稍後請求";
+CanceledPayment = "已取消支付";
+NetworkConnectionError = "網絡連接出錯";
+PayWarning = "提示";
+PayAgain = "充值失敗了，是否嘗試再次連接服務器";
+PayAppleAgain = "監測到您上次有已支付但未到賬的訂單，正在幫您繼續充值";
+twoSecWarning = "重試失敗，請檢測您的網絡，下次再進入該頁面時將繼續嘗試";
+
+
+HaveToPay = "已支付:";
+clickRetry = "點擊重新獲取";
+FailedToRechargeSuccessfully = "充值失敗或充值長時間不到賬，可以點擊“恢復購買”進行恢復到賬";
+ClickToGetTheMagicCoin = "點擊獲取%@";
+beenPaidSuccessfully = "您好，此金額已付款成功";
+uncredited = "未到賬記錄";
+notBeinPaid = "沒有未到賬的記錄喲~";
+SerialNumber = "編號：";
+
+AccounVerificationHasExpired = "帳號驗證已過期，請重新登錄！";
+
+recommended = "推薦";
+Select = "精選";
+IJustSawItHere = "剛剛看到這裡，點擊刷新";
+ComplimentaryRecord = "贈送記錄";
+WelfareCentre = "福利中心";
+MyCollection = "我的收藏";
+PickUp = "領取";
+HasBeenCompleted = "已領取";
+check = "查看";
+ValidUntil = "有效期至：%@";
+TimeOfPresentation = "贈送時間：%@";
+expiredCountTime = "%@天後到期";
+pleaseWaitForAuthorReview = "發送成功，請等待作者審核";
+HoldOnPlease = "請稍等";
+SeeDetails = "查看詳情";
+theMostPopularAndBestSellingNovelsAllHave = "【傳奇書城】，海量熱門暢銷小說，紅文爽文新文暢讀無限。小說支持一鍵全本下載，隨時隨地想看就看。";
+TheNovelReadingAddiction = "邀請你一起讀《%@》，無敵好看堪稱神作，不看後悔一萬年，看了還想看";
+ShareWithYourFriends = "分享給小伙伴";
+FailedCollectionPleaseTryAgain = "領取失敗請重新嘗試";
+DangdangSmalHandShakeSeeINotMuch = "噹噹噹噹~小手抖一抖，看看是不是多了%@%@了~";
+FutureGenerations = "全選";
+Edit = "編輯";
+GoToTheBookCity = "前往書城";
+NotYetAddedToTheCollection = "還未加入書架，快來加入吧～～";
+ReadToTheFirstChapter = "讀至第%@章";
+NoReadingHistory = "暫無閱讀記錄";
+BookCityIsAGoodBook = "書城好書無限快來吧～";
+just_date = "剛剛";
+MinutesAgo = "%@分鐘前";
+HoursBefore = "%@小時前";
+
+customerService = "在線客服";
+DaysAgo = "%@天前";
+MonthAgo = "%@月前";
+YearsAgo = "%@年前";
+CheckiInStatus = "簽到狀態獲取中...";
+ToObtainComplete = "獲取完成";
+AccountInformationHasBeenUpdated = "賬戶信息已更新";
+search_history = "搜索歷史";
+search_hot = "熱門搜索";
+HotbooksfromOthers = "大家都在看";
+PleaseSelectTheBookToDelete = "請選擇要刪除的書籍";
+ISEnd = "已結束";
+
+Msg_Centre = "消息中心";
+checkInRules = "簽到規則";
+checkInRules_Content = "1.每日簽到送書券，連續7日簽到額外多送書券，如簽到遺漏需重新累計連續7日；\n\n2.因系統原因，簽到時間為每日中國香港時間00:00:00到23:59:59，請您註意所在地區的時差；\n\n3.贈送的書券有效期是30天，1書券=1書幣，閱讀訂閱時優先扣除書券；\n\n 4.贈送的書券為虛擬物品，不支持提現、不找零；\n\n5.贈送書券的閱讀權限僅限本站使用；\n\n6.簽到問題，請點擊“反饋中心”進行反饋，我們將盡快幫您解決；\n\n7.簽到活動會根據實際情況調整，具體簽到規則及數額請以頁面展示為準。";
+The_day = "%@天";
+Daily_tasks = "日常任務";
+The_books_I_read = "我讀過的書";
+View_login_history = "查看登錄歷史";
+
+
+MyAccount = "我的賬戶";
+
+outstandingPayment = "有待付款";
+orderNumber = "訂單號";
+topupAmount = "充值金額";
+topupMoCoin = "充值書幣";
+givingMoCoupons = "贈送書券";
+totalPayment = "共計支付：%@";
+canceOrder = "取消訂單";
+okOrder = "繼續支付";
+pleaseU = "請您在 ";
+completePayment = " 內完成支付";
+
+
+balance = "余額";
+usedDiscountCard = "已使用打折卡";
+chapter = "章節";
+price = "價格";
+discountCard = "打折卡";
+month = "月";
+totalPrice = "總價";
+buyNow = "立即購買";
+dataReturnError = "數據返回出錯";
+VIPMembers = "VIP會員";
+ordinarMembers = "普通會員";
+discountCardTitle = "已開通暢讀打折卡";
+DueTime = "到期時間";
+exclusivePrice = "暢讀專享價";
+
+
+subscribeToThePrompt = "剩余可訂閱章節數不足";
+No_boos_message = "暫無消息喲～～";
+In_The_Use = " 使用中";
+Has_been_used = " 已使用";
+giving_expired = " 已過期";
+How_to_get_book_money = "如何獲得%@";
+
+Login_by_othe_mean = "使用其他方式登錄";
+One_click_login_start_the_fantasy_reading_journey = "一鍵登錄，開啟奇幻閱讀之旅！";
+I_know_the = "我知道了";
+Sign_in_successfully = "簽到成功";
+One_exchange_code_can_only = "1、一個兌換碼只能兌換一次，兌換後即失效，不可重複兌換；\n2、兌換碼有效期為30天，到期自動失效，請盡快使用；\n3、兌換的書券請前往贈送記錄中查詢；\n4、兌換碼所兌換的物品有效期為30天，兌換成功後請及時使用。";
+Immediately_a_renewal = "立即續費";
+Open_immediately = "立即開通";
+Check_it_now = "立即查看";
+Discount_CARDS_accumulate = "打折卡累計為您節省";
+User_accumulates_savings = "用戶%@累計已節省";
+Average_annual_savings_for_users = "平均每年為用戶節省";
+Prepaid_phone_immediately = "立即充值";
+Subscribe_to_this_chapter = "訂閱本章";
+The_subscription_book = "訂閱本書";
+Continue_FeiChengGong = "續費成功";
+subscribeReadthewhole_station = "開通暢讀打折卡";
+Automatically_subscribe_to_the_next_chapter = "自動訂閱下一章";
+Thank_youk_fork_yourk_support = "感謝您支持正版";
+subscribe_and_open_immediately = "折訂閱 立即開通>>";
+Check_the_details = "查看明細";
+Go_to_the_book_store_and_find_more_popular_books = "去書城，發現更多熱門好書>";
+Join_the_bookshelf_and_read_on = "加入書架並繼續閱讀";
+Th_content_is_trying_to_load = "內容正在努力加載...";
+No_list_yet = "暫時還木有列表";
+Click_the_refresh = "點擊刷新";
+Make_a_mistake_Sorry_try_refresh = "出錯了！非常抱歉，刷新試試吧~~";
+go_find_good_books = "空空如也，快去發現好書吧！";
+Empty_no_order = "空空如也，暫無訂單哦！";
+Stamp_here_to_view_directory = "戳這裡查看目錄";
+More_customizations_here_at_th_stamp = "戳這裡更多自定義設置";
+Deducted_but_not_received_Poke_here_to_accelerate_to_account = "已扣款，未到賬？戳這裡加速到賬！";
+
+Replace_the_email = "更換郵箱";
+Binding_email = "綁定郵箱";
+Reset_password = "重置密碼";
+The_verification_code_has_bee_sent_to_your_email = "驗證碼已發送至您的郵箱%@，請注意查收";
+Email_login = "郵箱登錄";
+Please_ente_email = "請輸入郵箱";
+Next_step = "下一步";
+Send_verification_code = "發送驗證碼";
+Resend_code = "重新發送";
+Is_sending = "正在發送";
+Change_your_email = "變更郵箱";
+Please_enter_password = "請輸入密碼";
+Forget_password = "忘記密碼";
+Please_set_your_nickname = "請設置您的暱稱";
+Please_set_your_password = "請設置您的密碼";
+Complete_registration = "完成註冊";
+Change_password = "修改密碼";
+Please_set_your_password_so_that_you_can_log_in_using_emai = "請設置您的密碼，以便使用郵箱登錄";
+Please_enter_a_new_password = "請輸入新密碼";
+Please_enter_a_new_password_again = "請再輸入一次新密碼";
+You_log_in_using_mailbox = "您使用郵箱%@登錄";
+Please_enter_new_email_address = "請輸入新郵箱";
+Please_enter_the_verification_code = "請輸入驗證碼";
+Set_password = "設置密碼";
+The_bound_mailbox_has_been_changed_successfully = "已成功更改綁定郵箱！";
+Email_registration = "郵箱註冊";
+Your_email_address_is_not_registered_yet = "您的郵箱尚未註冊";
+We_have_sent_a_registration_verification_email_to_your_emai_address_yet = "我們已向已您的郵箱%@，發送註冊驗證郵件，請注意查收";
+
+unusedText = "\n立\n即\n使\n用\n";
+hadusedText = "\n已\n經\n使\n用\n";
+expiredText = "\n已\n經\n失\n效\n";
+recommendText = "精品推薦";
+event_center = "活动中心";
+myComments = "我的评论";
+exchange_code = "兑换码";
+noCardCoupon = "無可用優惠券";

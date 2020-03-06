@@ -1,0 +1,35 @@
+syntax = "proto3";
+package proto;
+
+//设备平台
+enum Platform {
+    P_NONE = 0;
+    IOS = 1;
+    ANDROID = 2;
+    WEB = 3;
+    H5 = 4;
+}
+message Params {
+    string key = 1;
+    string value = 2;
+}
+//基础信息
+message BaseInfo {
+    string app_name = 1;   //应用名称
+    int32 timestamp = 2;    //时间戳
+    Platform platform = 3;  //平台
+    string uuid = 4;        //uuid
+    string fc = 5;          //推广渠道名称
+}
+//业务信息
+message BusinessInfo {
+    int32 user_id = 1;      //用户uid
+    int32 timestamp = 2;    //时间戳
+    string event = 3;
+    repeated Params params = 4;
+}
+//日志信息
+message LogInfo {
+    BaseInfo base_info = 1;
+    repeated BusinessInfo business_info = 2;
+}

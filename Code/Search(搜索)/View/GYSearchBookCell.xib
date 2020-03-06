@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="6qe-eV-ArX" customClass="GYSearchBookCell" customModule="MoQingInternational" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="186" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="186" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ged-SI-8Bt" customClass="MQIBookImageView" customModule="MoQingInternational" customModuleProvider="target">
+                        <rect key="frame" x="33" y="10" width="120" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Ged-SI-8Bt" secondAttribute="height" multiplier="3:4" id="Tov-7i-FM0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIt-Xd-ZVV">
+                        <rect key="frame" x="10" y="172" width="176" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="ciy-sB-PNq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Ged-SI-8Bt" firstAttribute="centerX" secondItem="6qe-eV-ArX" secondAttribute="centerX" id="2Hr-ep-Z9C"/>
+                <constraint firstItem="dIt-Xd-ZVV" firstAttribute="top" secondItem="Ged-SI-8Bt" secondAttribute="bottom" constant="2" id="3nk-3L-y0U"/>
+                <constraint firstItem="dIt-Xd-ZVV" firstAttribute="leading" secondItem="6qe-eV-ArX" secondAttribute="leading" constant="10" id="45u-I3-7vm"/>
+                <constraint firstAttribute="trailing" secondItem="dIt-Xd-ZVV" secondAttribute="trailing" id="VI9-4o-AHC"/>
+                <constraint firstItem="Ged-SI-8Bt" firstAttribute="top" secondItem="6qe-eV-ArX" secondAttribute="top" constant="10" id="dcD-9D-GXN"/>
+                <constraint firstAttribute="bottom" secondItem="dIt-Xd-ZVV" secondAttribute="bottom" constant="10" id="ffh-A6-o30"/>
+            </constraints>
+            <size key="customSize" width="186" height="200"/>
+            <connections>
+                <outlet property="icon" destination="Ged-SI-8Bt" id="pPq-aL-xZy"/>
+                <outlet property="textLabel" destination="dIt-Xd-ZVV" id="EJy-nB-ek9"/>
+            </connections>
+            <point key="canvasLocation" x="-491" y="237"/>
+        </collectionViewCell>
+    </objects>
+</document>

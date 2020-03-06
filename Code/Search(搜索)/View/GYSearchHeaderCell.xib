@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0Ta-lc-LBv" customClass="GYSearchHeaderCell" customModule="Reader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="46"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="180-Rh-4YT">
+                        <rect key="frame" x="10" y="10.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="d0j-SZ-ab6"/>
+                            <constraint firstAttribute="width" secondItem="180-Rh-4YT" secondAttribute="height" id="rbS-6n-CYZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0A-gC-UBa">
+                        <rect key="frame" x="40" y="0.0" width="310.5" height="46"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJ7-OW-4hh">
+                        <rect key="frame" x="360.5" y="3" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="IdJ-It-s1v"/>
+                            <constraint firstAttribute="width" secondItem="GJ7-OW-4hh" secondAttribute="height" id="pgo-jJ-9cx"/>
+                        </constraints>
+                        <state key="normal" image="shelf_push_delete"/>
+                        <connections>
+                            <action selector="deleteAction:" destination="0Ta-lc-LBv" eventType="touchUpInside" id="FzF-ag-ZJR"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="GJ7-OW-4hh" secondAttribute="trailing" constant="13.5" id="6Gw-eA-Wq8"/>
+                <constraint firstAttribute="bottom" secondItem="O0A-gC-UBa" secondAttribute="bottom" id="7gP-ed-Ezs"/>
+                <constraint firstItem="O0A-gC-UBa" firstAttribute="top" secondItem="0Ta-lc-LBv" secondAttribute="top" id="LFB-MM-xd6"/>
+                <constraint firstItem="O0A-gC-UBa" firstAttribute="leading" secondItem="180-Rh-4YT" secondAttribute="trailing" constant="5" id="dkH-Yn-AWp"/>
+                <constraint firstItem="GJ7-OW-4hh" firstAttribute="leading" secondItem="O0A-gC-UBa" secondAttribute="trailing" constant="10" id="dpk-fH-UPn"/>
+                <constraint firstItem="180-Rh-4YT" firstAttribute="centerY" secondItem="0Ta-lc-LBv" secondAttribute="centerY" id="lut-Tq-dUu"/>
+                <constraint firstItem="GJ7-OW-4hh" firstAttribute="centerY" secondItem="0Ta-lc-LBv" secondAttribute="centerY" id="n8I-CE-pcD"/>
+                <constraint firstItem="180-Rh-4YT" firstAttribute="leading" secondItem="0Ta-lc-LBv" secondAttribute="leading" constant="10" id="t5D-cx-h9W"/>
+            </constraints>
+            <size key="customSize" width="414" height="46"/>
+            <connections>
+                <outlet property="deleteBtn" destination="GJ7-OW-4hh" id="2sK-QX-c5a"/>
+                <outlet property="searchIcon" destination="180-Rh-4YT" id="Ey2-By-uKz"/>
+                <outlet property="textLabel" destination="O0A-gC-UBa" id="ZGp-GJ-9Ss"/>
+            </connections>
+            <point key="canvasLocation" x="-27" y="21"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="shelf_push_delete" width="20" height="20"/>
+    </resources>
+</document>

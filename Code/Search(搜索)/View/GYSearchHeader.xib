@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5oS-Yv-jQK" customClass="GYSearchHeader" customModule="Reader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WHr-sJ-2vd">
+                    <rect key="frame" x="10" y="15" width="3" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="3" id="xfm-2a-h2g"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2op-eQ-BFh">
+                    <rect key="frame" x="20" y="15" width="105.5" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2op-eQ-BFh" secondAttribute="height" multiplier="275:52" id="pdI-XD-Jir"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="2op-eQ-BFh" firstAttribute="leading" secondItem="WHr-sJ-2vd" secondAttribute="leading" constant="10" id="2D9-vc-jqV"/>
+                <constraint firstItem="2op-eQ-BFh" firstAttribute="centerY" secondItem="WHr-sJ-2vd" secondAttribute="centerY" id="FVD-k1-qeS"/>
+                <constraint firstItem="2op-eQ-BFh" firstAttribute="height" secondItem="WHr-sJ-2vd" secondAttribute="height" id="LBl-wp-FLm"/>
+                <constraint firstItem="WHr-sJ-2vd" firstAttribute="top" secondItem="5oS-Yv-jQK" secondAttribute="top" constant="15" id="gAt-CV-gkz"/>
+                <constraint firstItem="WHr-sJ-2vd" firstAttribute="leading" secondItem="5oS-Yv-jQK" secondAttribute="leading" constant="10" id="o5G-88-KwI"/>
+                <constraint firstAttribute="bottom" secondItem="WHr-sJ-2vd" secondAttribute="bottom" constant="15" id="wWr-hg-Ss5"/>
+            </constraints>
+            <connections>
+                <outlet property="leftImage" destination="WHr-sJ-2vd" id="zGe-L0-RKP"/>
+                <outlet property="rightImage" destination="2op-eQ-BFh" id="wck-lN-RR1"/>
+            </connections>
+            <point key="canvasLocation" x="-105" y="1"/>
+        </collectionReusableView>
+    </objects>
+</document>

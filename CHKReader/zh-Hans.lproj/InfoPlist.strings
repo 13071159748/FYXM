@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  MoQingInternational
+
+  Created by moqing on 2018/6/29.
+  Copyright © 2018年 _CHK_ . All rights reserved.
+*/
+CFBundleDisplayName = "传奇书城";
+
+//// 权限
+
+//NSMicrophoneUsageDescription = "请求访问您的麦克风";
+
+NSCameraUsageDescription = "是否同意传奇书城访问您的相机？来完成头像设置。";
+NSPhotoLibraryAddUsageDescription = "是否同意传奇书城访问相册资料？来完成头像设置。";
+NSPhotoLibraryUsageDescription = "是否同意传奇书城访问媒体资料库？选择图像，来完成头像设置。";
+NSAppleMusicUsageDescription = "是否同意传奇书城访问媒体资料库？来完成头像设置。";
